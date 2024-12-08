@@ -1,144 +1,267 @@
-<!DOCTYPE html>
-<html lang="jv" dir="ltr" itemscope itemtype="https://schema.org/ShortStory">
+<!doctype html>
+<html lang="jv" dir="ltr">
   <head>
-    <title>Game shogi saka Demon</title>
+    <title>Kaidan Peri Ogi sing Ngegodha</title>
 
     <meta charset="UTF-8">
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'">
+
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="Ing cahya mistik rembulan purnama, temokake crita Komayo, yokai sing nggumunake saka crita rakyat Jepang. Seductive lan agawe, dheweke nggodho nyawa sing ilang menyang game ogi, nyerep energi urip lan dooming menyang siksa langgeng. Iku dongeng atraksi fatal lan kepinginan unchecked, bebaya poignant marang beboyo saka godaan.">
-    <meta name="keywords" content="crita hantu, Komayo, obake, ogi, shogi, yokai, yurei">
-    <meta name="robots" content="index, follow">
+    <meta name="description" content="Crita kaidan Jepang tradisional nyritakake babagan yōkai sing jenenge Komayō sing narik para pemain ogi ing dolanan bengi, sadurunge malih dadi yūrei.">
+    <meta name="keywords" content="Komayō, yōkai, yūrei, ōgi, kaidan, folklor Jepang, crita memedi, dolanan tradisional, kimono, godha gaib">
+    <meta name="robots" content="index,follow">
     <meta name="author" content="Cyril Veltin">
-    <meta property="og:title" content="Game shogi saka Demon">
-    <meta property="og:type" content="book">
+    <meta name="copyright" content="Cyril Veltin 2023">
+
+    <meta property="og:site_name" content="Komayō">
+    <meta property="og:locale" content="jv">
+    <meta property="og:title" content="Kaidan Peri Ogi sing Ngegodha">
+    <meta property="og:description" content="Crita kaidan Jepang tradisional nyritakake babagan yōkai sing jenenge Komayō sing narik para pemain ogi ing dolanan bengi, sadurunge malih dadi yūrei.">
+    <meta property="og:type" content="book:folklore">
     <meta property="og:url" content="https://jv.komayo.page/">
-    <meta property="og:image" content="https://jv.komayo.page/img/komayo-1024x1024.webp">
-    <meta property="og:description" content="Ing cahya mistik rembulan purnama, temokake crita Komayo, yokai sing nggumunake saka crita rakyat Jepang. Seductive lan agawe, dheweke nggodho nyawa sing ilang menyang game ogi, nyerep energi urip lan dooming menyang siksa langgeng. Iku dongeng atraksi fatal lan kepinginan unchecked, bebaya poignant marang beboyo saka godaan.">
-    <meta itemprop="name" content="Game shogi saka Demon">
-    <meta itemprop="description" content="Ing cahya mistik rembulan purnama, temokake crita Komayo, yokai sing nggumunake saka crita rakyat Jepang. Seductive lan agawe, dheweke nggodho nyawa sing ilang menyang game ogi, nyerep energi urip lan dooming menyang siksa langgeng. Iku dongeng atraksi fatal lan kepinginan unchecked, bebaya poignant marang beboyo saka godaan.">
-    <meta itemprop="image" content="https://jv.komayo.page/img/komayo-1024x1024.webp">
+    <meta property="og:image" content="https://jv.komayo.page/img/japanese-woman-kimono-yogyakarta-moonlit-fields-silver-light-ink-art_bipmq7_c_scale,w_1024.webp">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1024">
+    <meta property="og:image:alt" content="Wong wadon nganggo kimono ing ngisor rembulan purnama, ilustrasi Jepang modern">
+    <meta property="og:article:author" content="Cyril Veltin">
+    <meta property="og:article:published_time" content="2023-06-26">
+
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Game shogi saka Demon">
-    <meta name="twitter:description" content="Ing cahya mistik rembulan purnama, temokake crita Komayo, yokai sing nggumunake saka crita rakyat Jepang. Seductive lan agawe, dheweke nggodho nyawa sing ilang menyang game ogi, nyerep energi urip lan dooming menyang siksa langgeng. Iku dongeng atraksi fatal lan kepinginan unchecked, bebaya poignant marang beboyo saka godaan.">
-    <meta name="twitter:image" content="https://jv.komayo.page/img/komayo-1024x1024.webp">
+    <meta name="twitter:title" content="Kaidan Peri Ogi sing Ngegodha">
+    <meta name="twitter:description" content="Crita kaidan Jepang tradisional nyritakake babagan yōkai sing jenenge Komayō sing narik para pemain ogi ing dolanan bengi, sadurunge malih dadi yūrei.">
+    <meta name="twitter:image" content="https://jv.komayo.page/img/japanese-woman-kimono-yogyakarta-moonlit-fields-silver-light-ink-art_bipmq7_c_scale,w_1024.webp">
 
-      <link rel="alternate" hreflang="bn" href="https://bn.komayo.page/">
-      <link rel="alternate" hreflang="en" href="https://en.komayo.page/">
-      <link rel="alternate" hreflang="fa" href="https://fa.komayo.page/">
-      <link rel="alternate" hreflang="fr" href="https://fr.komayo.page/">
-      <link rel="alternate" hreflang="gu" href="https://gu.komayo.page/">
-      <link rel="alternate" hreflang="hi" href="https://hi.komayo.page/">
-      <link rel="alternate" hreflang="id" href="https://id.komayo.page/">
-      <link rel="alternate" hreflang="ja" href="https://ja.komayo.page/">
-      <link rel="alternate" hreflang="kn" href="https://kn.komayo.page/">
-      <link rel="alternate" hreflang="ko" href="https://ko.komayo.page/">
-      <link rel="alternate" hreflang="lo" href="https://lo.komayo.page/">
-      <link rel="alternate" hreflang="ml" href="https://ml.komayo.page/">
-      <link rel="alternate" hreflang="mr" href="https://mr.komayo.page/">
-      <link rel="alternate" hreflang="my" href="https://my.komayo.page/">
-      <link rel="alternate" hreflang="or" href="https://or.komayo.page/">
-      <link rel="alternate" hreflang="pa" href="https://pa.komayo.page/">
-      <link rel="alternate" hreflang="ta" href="https://ta.komayo.page/">
-      <link rel="alternate" hreflang="te" href="https://te.komayo.page/">
-      <link rel="alternate" hreflang="th" href="https://th.komayo.page/">
-      <link rel="alternate" hreflang="ur" href="https://ur.komayo.page/">
-      <link rel="alternate" hreflang="vi" href="https://vi.komayo.page/">
-      <link rel="alternate" hreflang="zh" href="https://zh.komayo.page/">
+    <link rel="alternate" hreflang="bn" href="https://bn.komayo.page/">
+    <link rel="alternate" hreflang="en" href="https://en.komayo.page/">
+    <link rel="alternate" hreflang="fa" href="https://fa.komayo.page/">
+    <link rel="alternate" hreflang="fr" href="https://fr.komayo.page/">
+    <link rel="alternate" hreflang="gu" href="https://gu.komayo.page/">
+    <link rel="alternate" hreflang="hi" href="https://hi.komayo.page/">
+    <link rel="alternate" hreflang="id" href="https://id.komayo.page/">
+    <link rel="alternate" hreflang="ja" href="https://ja.komayo.page/">
+    <link rel="alternate" hreflang="jv" href="https://jv.komayo.page/">
+    <link rel="alternate" hreflang="kn" href="https://kn.komayo.page/">
+    <link rel="alternate" hreflang="ko" href="https://ko.komayo.page/">
+    <link rel="alternate" hreflang="lo" href="https://lo.komayo.page/">
+    <link rel="alternate" hreflang="ml" href="https://ml.komayo.page/">
+    <link rel="alternate" hreflang="mr" href="https://mr.komayo.page/">
+    <link rel="alternate" hreflang="my" href="https://my.komayo.page/">
+    <link rel="alternate" hreflang="or" href="https://or.komayo.page/">
+    <link rel="alternate" hreflang="pa" href="https://pa.komayo.page/">
+    <link rel="alternate" hreflang="ta" href="https://ta.komayo.page/">
+    <link rel="alternate" hreflang="te" href="https://te.komayo.page/">
+    <link rel="alternate" hreflang="th" href="https://th.komayo.page/">
+    <link rel="alternate" hreflang="ur" href="https://ur.komayo.page/">
+    <link rel="alternate" hreflang="vi" href="https://vi.komayo.page/">
+    <link rel="alternate" hreflang="zh" href="https://zh.komayo.page/">
+
     <link rel="canonical" href="https://jv.komayo.page/">
-    <link rel="icon" type="image/svg+xml" sizes="any" href="favicon.svg">
 
-    <style media="screen">
-      @media (prefers-color-scheme: light) {
-        :root {
-          --background-color: white;
-          --color: black;
-          --link-color: #6d071a;
-          --quote-color: #6d071a;
-          --shadow-color: #ccc;
-          --article-title-text-color: #000;
-          --article-title-shadow-color: #ccc;
-        }
-      }
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="Komayō">
+    <link rel="manifest" href="/site.webmanifest">
 
-      @media (prefers-color-scheme: dark) {
-        :root {
-          --background-color: black;
-          --color: white;
-          --link-color: #e37f98;
-          --quote-color: #e37f98;
-          --shadow-color: #58354d;
-          --article-title-text-color: #fff;
-          --article-title-shadow-color: #333;
-        }
-      }
-    </style>
-
-    <link rel="stylesheet" href="css/all.css" media="all">
-    <link rel="stylesheet" href="css/print.css" media="print">
-    <link rel="stylesheet" href="css/screen.css" media="screen">
+    <link href="/all.css" rel="stylesheet">
 
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "ShortStory",
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://jv.komayo.page/"
+        "@id": "https://jv.komayo.page/",
+        "url": "https://jv.komayo.page/",
+        "@language": "jv",
+        "hasPart": [
+          {
+            "@type": "Game",
+            "headline": "Dolanan Putri",
+            "name": "Dolanan",
+            "@id": "https://ogi.page/",
+            "url": "https://ogi.page/"
+          }
+        ],
+        "keywords": [
+          "Komayō",
+          "yōkai",
+          "yūrei",
+          "ōgi",
+          "kaidan",
+          "folklor Jepang",
+          "crita memedi",
+          "dolanan tradisional",
+          "kimono",
+          "godha gaib"
+        ],
+        "timeRequired": "PT4M",
+        "author": {
+          "@type": "Person",
+          "name": "Cyril Veltin"
         },
+        "copyrightHolder": {
+          "@type": "Person",
+          "name": "Cyril Veltin"
+        },
+        "copyrightYear": "2023",
+        "dateModified": "2023-06-26",
+        "datePublished": "2023-06-26",
+        "description": "Crita kaidan Jepang tradisional nyritakake babagan yōkai sing jenenge Komayō sing narik para pemain ogi ing dolanan bengi, sadurunge malih dadi yūrei.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://jv.komayo.page/img/japanese-woman-kimono-yogyakarta-moonlit-fields-silver-light-ink-art_bipmq7_c_scale,w_1024.webp",
+          "width": "1024",
+          "height": "1024",
+          "caption": "Wong wadon nganggo kimono ing ngisor rembulan purnama, ilustrasi Jepang modern"
+        },
+        "genre": [
+          "Kaidan",
+          "Folklor Jepang",
+          "Fiksi fantasi"
+        ],
+        "inLanguage": "jv",
+        "headline": "Peri Ogi sing Ngegodha",
+        "name": "Crita Memedi",
         "publisher": {
           "@type": "Organization",
           "name": "Sashité",
           "url": "https://sashite.com/"
         },
-        "author": {
+        "abstract": "Crita memedi Jepang babagan yōkai sing ngegodha para pemain ogi nalika dolanan bengi.",
+        "accessMode": ["textual", "visual"],
+        "accessModeSufficient": ["textual"],
+        "character": "Komayō",
+        "contentLocation": "Kansai, Jepang",
+        "isAccessibleForFree": true,
+        "isFamilyFriendly": true,
+        "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "sdDatePublished": "2023-06-26",
+        "sdPublisher": {
+          "@type": "Organization",
+          "name": "Sashité"
+        },
+        "teaches": "Waspada marang sing ora dingerteni lan bebaya saka godha",
+        "temporal": "Jaman saiki",
+        "text": "Ana crita ing Jepang, ing tlatah Kansai, nalika rembulan purnama madhangi langit, ana makhluk sing ayu banget ngetok...",
+        "typicalAgeRange": "16+",
+        "about": "Makhluk saka folklor Jepang sing ana hubungane karo dolanan tradisional",
+        "accessibilityFeature": ["alternativeText", "readingOrder", "structuralNavigation"],
+        "accessibilitySummary": "Teks sing bisa diakses kanthi deskripsi gambar lan navigasi sing terstruktur",
+        "accountablePerson": {
           "@type": "Person",
           "name": "Cyril Veltin"
         },
-        "inLanguage": "jv",
-        "headline": "Game shogi saka Demon",
-        "description": "Ing cahya mistik rembulan purnama, temokake crita Komayo, yokai sing nggumunake saka crita rakyat Jepang. Seductive lan agawe, dheweke nggodho nyawa sing ilang menyang game ogi, nyerep energi urip lan dooming menyang siksa langgeng. Iku dongeng atraksi fatal lan kepinginan unchecked, bebaya poignant marang beboyo saka godaan.",
-        "image": "https://jv.komayo.page/img/komayo-1024x1024.webp",
-        "datePublished": "2023-06-26",
-        "dateModified": "2023-06-26",
-        "keywords": "crita hantu, Komayo, obake, ogi, shogi, yokai, yurei"
+        "alternativeHeadline": "Legendha pemain ōgi",
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Penikmat folklor Jepang"
+        },
+        "educationalLevel": "Kabeh umur",
+        "educationalUse": "Hiburan lan budaya",
+        "fileFormat": "text/html",
+        "interactivityType": "expositive",
+        "learningResourceType": "naratif",
+        "pattern": "Crita memedi tradisional Jepang",
+        "sourceOrganization": {
+          "@type": "Organization",
+          "name": "Sashité",
+          "url": "https://sashite.com/"
+        },
+        "spatialCoverage": {
+          "@type": "Place",
+          "name": "Tlatah Kansai, Jepang"
+        },
+        "thumbnailUrl": "https://jv.komayo.page/img/japanese-woman-kimono-yogyakarta-moonlit-fields-silver-light-ink-art_bipmq7_c_scale,w_200.webp",
+        "version": "1.0"
       }
     </script>
   </head>
 
   <body>
-    <header>
-      <picture>
-        <source srcset="komayo-light.svg" media="(prefers-color-scheme: light)">
-        <img
-          src="komayo-dark.svg"
-          alt="Komayō"
-          title="Komayo"
-          height="22"
-          width="92">
-      </picture>
-    </header>
+    <main>
+      <article itemscope itemtype="https://schema.org/ShortStory">
+        <h1 itemprop="headline">Peri Ogi sing Ngegodha</h1>
 
-    <article>
-  <h1>
-    Legenda kutha
-  </h1>
+        <p itemprop="description">
+          Ana crita ing tlatah <cite itemprop="contentLocation">Yogyakarta</cite>,
+          nalika rembulan purnama madhangi sawah-sawah kanthi cahya perak,
+          ana memedi ayu sing ngetok, golek wong sing kesasar ing dalan.
+        </p>
 
-  <p>Ana ing désa-désa ing Jepang sing adoh, ana crita babagan wong wadon sing ayu banget sing kesasar ing sangisore rembulan. Sawetara wong, kanthi swara alon, wani nyebut dheweke Komayo. Sawetara crita babagan dheweke diubengi misteri lan ngomong babagan sosok sing anggun nganggo kimono biru tengah wengi, sing katon kanggo lelungan sing sepi, kaya-kaya ketarik dening kasepen. Sawetara wong ngaku yen dheweke nantang wong-wong mau kanggo main game kuna, sing aturan wis ilang, padha karo shogi. Dikandhakake yen wong-wong sing nampa undhangan iki ditemokake ing dina sabanjure, pasuryane beku kanthi eseman sing aneh, papan game ing sisihane, pikirane kaya ilang, dikonsumsi dening misteri sing ora bisa dingerteni.</p>
+        <picture>
+          <img
+            itemprop="image"
+            width="1024"
+            height="1024"
+            sizes="(max-width: 1024px) 100vw, 1024px"
+            srcset="
+              img/japanese-woman-kimono-yogyakarta-moonlit-fields-silver-light-ink-art_bipmq7_c_scale,w_200.webp 200w,
+              img/japanese-woman-kimono-yogyakarta-moonlit-fields-silver-light-ink-art_bipmq7_c_scale,w_295.webp 295w,
+              img/japanese-woman-kimono-yogyakarta-moonlit-fields-silver-light-ink-art_bipmq7_c_scale,w_427.webp 427w,
+              img/japanese-woman-kimono-yogyakarta-moonlit-fields-silver-light-ink-art_bipmq7_c_scale,w_490.webp 490w,
+              img/japanese-woman-kimono-yogyakarta-moonlit-fields-silver-light-ink-art_bipmq7_c_scale,w_529.webp 529w,
+              img/japanese-woman-kimono-yogyakarta-moonlit-fields-silver-light-ink-art_bipmq7_c_scale,w_592.webp 592w,
+              img/japanese-woman-kimono-yogyakarta-moonlit-fields-silver-light-ink-art_bipmq7_c_scale,w_661.webp 661w,
+              img/japanese-woman-kimono-yogyakarta-moonlit-fields-silver-light-ink-art_bipmq7_c_scale,w_719.webp 719w,
+              img/japanese-woman-kimono-yogyakarta-moonlit-fields-silver-light-ink-art_bipmq7_c_scale,w_779.webp 779w,
+              img/japanese-woman-kimono-yogyakarta-moonlit-fields-silver-light-ink-art_bipmq7_c_scale,w_839.webp 839w,
+              img/japanese-woman-kimono-yogyakarta-moonlit-fields-silver-light-ink-art_bipmq7_c_scale,w_892.webp 892w,
+              img/japanese-woman-kimono-yogyakarta-moonlit-fields-silver-light-ink-art_bipmq7_c_scale,w_950.webp 950w,
+              img/japanese-woman-kimono-yogyakarta-moonlit-fields-silver-light-ink-art_bipmq7_c_scale,w_1024.webp 1024w"
+            src="img/japanese-woman-kimono-yogyakarta-moonlit-fields-silver-light-ink-art_bipmq7_c_scale,w_1024.webp"
+            alt="Ilustrasi artis babagan wong wadon enom nganggo kimono biru wengi, rambut ireng dawa, ing alas wengi sing madhangi dening rembulan purnama sing padhang"
+          >
+        </picture>
 
+        <p>
+          Ayu lan misterius,
+          nganggo kimono warna biru wengi sing jero,
+          <cite itemprop="character">Komayo</cite> ngegodha wong sing apes kanthi nawani dolanan
+          <a href="https://ogi.page/" itemprop="mentions" itemscope itemtype="https://schema.org/Game" rel="external"><strong itemprop="name">Ogi</strong></a>.
+          Wong sing gelem nampa ajakane bakal keseret menyang labirin gerakan sing ora bisa ditamani.
+        </p>
 
-  <picture>
-    <source type="image/webp" srcset="img/komayo-512x512.webp" media="(max-width: 512px)" height="512" width="512">
-    <source type="image/webp" srcset="img/komayo-1024x1024.webp" media="(min-width: 512px)" height="1024" width="1024">
+        <p>
+          Nanging,
+          nalika dolanan lumaku ing ngisor wit kamboja,
+          kesel sing aneh nyerang para pemain,
+          ngaburake pamikiran lan nyusup ing balung,
+          nggawa wong-wong mau menyang turu sing jero kaya banyu Bengawan Solo.
+        </p>
 
-    <img
-      src="img/komayo-1024x1024.jpg"
-      alt="Komayo, yokai, ditampilake nalika dolanan ogi. Ing sisih dheweke, korban kesel bisa katon."
-      title="Permainan Ogi Penarik Komayō lan Tundha Lelara ing Tidur Abadi"
-      height="1024"
-      width="1024">
-  </picture>
-</article>
+        <p>
+          Ing wektu turu jero kuwi Komayo nuduhake wujud sejatine minangka memedi.
+          Dheweke nyedhot kekuwatan urip,
+          ninggalake mung swara kosong saka kekuwatan lawas.
+          Nyawane korban-korban sing apes kuwi malih dadi sukma gentayangan,
+          dikutuk kanggo gentayangan tanpa pungkasan.
+          Digodha dening kenangan Komayo sing memedi lan disiksa dening pengarep-arep kosong kanggo ngrampungake dolanan Ogi,
+          dheweke padha gentayangan ing sawah-sawah sing kabut salawase,
+          kepenjara ing pados sing durung rampung lan impen sing gagal.
+        </p>
 
+        <p>
+          Crita iki asale saka dongeng-dongeng ing kraton lawas lan crita misterius saka desa-desa sing adoh,
+          sing suwe-suwe dadi pepeling nglawan daya tarik sing ora dingerteni lan pados seneng sing sembrana.
+          Iki minangka pepeling sing kumandang liwat jaman,
+          pengeling-eling bab garis tipis antarane pepinginan lan kerusakan.
+        </p>
+      </article>
+    </main>
 
+    <footer>
+      <p>
+        &copy; 2023 Cyril Veltin.
+        Kabeh hak dilindhungi.
+        <a title="Ganti basa" href="https://komayo.page/"><img
+          width="448"
+          height="416"
+          src="/icon/change-language.svg"
+          alt="Pilihan basa"
+          title="Ganti basa"
+        ></a>
+      </p>
+    </footer>
   </body>
 </html>
