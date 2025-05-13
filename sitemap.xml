@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://jv.komayo.page/</loc>
     <lastmod>2023-06-26</lastmod>
+    <image:image>
+      <image:loc>https://jv.komayo.page/img/japanese-woman-kimono-yogyakarta-moonlit-fields-silver-light-ink-art,w_1024.webp</image:loc>
+      <image:title>Gambar mangsi wong wadon Jepang nganggo kimono ing sawah Yogyakarta nalika wengi sing madhangi dening cahya perak rembulan purnama</image:title>
+      <image:caption>Gambar mangsi wong wadon Jepang nganggo kimono ing sawah Yogyakarta nalika wengi sing madhangi dening cahya perak rembulan purnama</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jv.komayo.page/favicon/favicon.svg</image:loc>
+      <image:title>Komayo</image:title>
+      <image:caption>Logo Komayo</image:caption>
+    </image:image>
   </url>
 </urlset>
